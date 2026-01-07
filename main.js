@@ -5,9 +5,9 @@ let cliente;
 
 //Asignación de valores:
 
-cliente = "Carlos";
+cliente = "Ana";
 
-cliente = "Samuel";
+cliente = "Nairut";
 
 console.log(cliente);
 
@@ -15,11 +15,15 @@ console.log(cliente);
 
 let edad = 34;
 
-console.log(edad);
+console.log("edad:", edad);
+
+let femenino = true;
+
+console.log("femenino:", femenino)
 
 
 //Constantes: Es una variable cuyo valor no puede ser modificado una vez que se asignó.
 
 const nacimiento = 1991;
 
-console.log(nacimiento);
+console.log("nacimiento:", nacimiento);
