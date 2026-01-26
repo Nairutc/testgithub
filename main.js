@@ -87,7 +87,7 @@ if (calificacion >= 90) {
  //}
 
  //Ejemplo de Do  while
-
+/*
 let i = 0;
 
 do {
@@ -123,3 +123,30 @@ for (let i = 0; i < usuarios.length; i++) {
 
 
 
+*/
+
+
+//ACTIVIDAD
+
+//Usando el ciclo for 
+
+
+/*
+let numeroVeces = parseInt(prompt("Cuantas veces quieres que se repita el mensaje 'Hola!'?"));
+
+for ( let i = 1; i <= numeroVeces; i++){
+
+    console.log("Hola!");
+}
+*/
+
+//Usando ciclo While
+
+let texto = prompt("Introduce un texto (o presiona 'ESC' para salir):");
+let resultado = " ";
+
+while (texto !== "ESC"){ 
+    resultado += texto + " ";
+    console.log(resultado);
+    texto = prompt("Escribe o otro texto (o presiona 'ESC' para salir):");
+}
