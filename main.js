@@ -147,6 +147,6 @@ let resultado = " ";
 
 while (texto !== "ESC"){ 
     resultado += texto + " ";
-    console.log(resultado);
+                console.log(resultado);
     texto = prompt("Escribe o otro texto (o presiona 'ESC' para salir):");
 }
