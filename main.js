@@ -164,7 +164,7 @@ if (edadUsuario !== null && edadUsuario !== undefined) {
   if (nombre) {
     console.log(`Bienvenido, ${nombre}`);
   } else {
-    console.log("Información incompleta");
+    console.log("Información incompleta"); 
   }
 }
 
