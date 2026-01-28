@@ -142,6 +142,8 @@ for ( let i = 1; i <= numeroVeces; i++){
 
 //Usando ciclo While
 
+
+/*
 let texto = prompt("Introduce un texto (o presiona 'ESC' para salir):");
 let resultado = " ";
 
@@ -150,3 +152,50 @@ while (texto !== "ESC"){
                 console.log(resultado);
     texto = prompt("Escribe o otro texto (o presiona 'ESC' para salir):");
 }
+*/
+
+
+let edadUsuario = null;
+let nombre = "Carlos";
+
+if (edadUsuario !== null && edadUsuario !== undefined) {
+  console.log(`Tienes ${edadUsuario} años`);
+} else {
+  if (nombre) {
+    console.log(`Bienvenido, ${nombre}`);
+  } else {
+    console.log("Información incompleta");
+  }
+}
+
+
+/*
+
+let cantidad = Number(prompt("¿Cuántas veces quieres repetir el mensaje 'Hola'?"));
+
+if (!isNaN(cantidad) && cantidad > 0) {
+    for (let i = 1; i <= cantidad; i++) {
+        console.log("Repetición " + i + ": Hola");
+    }
+} else {
+    console.log("Debes ingresar un número válido mayor que 0.");
+}
+
+*/
+
+let texto = prompt("Ingresa un texto (escribe ESC para salir):");
+
+while (texto !== "ESC") {
+
+    // Condicional: evaluar longitud del texto
+    if (texto.length > 5) {
+        console.log("El texto '" + texto + "' tiene más de 5 caracteres.");
+    } else {
+        console.log("El texto '" + texto + "' tiene 5 caracteres o menos.");
+    }
+
+    // Pedir nuevamente
+    texto = prompt("Ingresa otro texto (escribe ESC para salir):");
+}
+
+console.log("Programa finalizado.");
