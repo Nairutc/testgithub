@@ -185,7 +185,7 @@ if (!isNaN(cantidad) && cantidad > 0) {
 
 let texto = prompt("Ingresa un texto (escribe ESC para salir):");
 
-while (texto !== "ESC") {
+while (texto !== "ESC") {  
 
     // Condicional: evaluar longitud del texto
     if (texto.length > 5) {
@@ -198,4 +198,4 @@ while (texto !== "ESC") {
     texto = prompt("Ingresa otro texto (escribe ESC para salir):");
 }
 
-console.log("Programa finalizado.");
+console.log("Programa finalizado."); 
